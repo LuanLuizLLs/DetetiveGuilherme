@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.icones_footer {
+	width: 25px;
+	margin-right: 5px;
+}
+.link_footer {
+	line-height: 2em;
+}
+
+.icones_contato {
+	width: 25px;
+	padding-right: 5px;
+}
+.text_contato {
+	line-height: 2em;
+}
+
+.lista_servicos {
+	text-indent: 20px;
+}
+
+.icone_button {
+	width: 18px;
+	padding-right: 4px;
+}
+
+.cards_home {
+	margin: 1rem;
+}
+.text_card {
+	line-height: 2em;
+}
+.btn-card {
+	width: 8rem;
+	height: 2.3rem;
+}
+
+
