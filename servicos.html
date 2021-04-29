@@ -3,63 +3,72 @@
 <head>
 	<title>Detetive Guilherme - Serviços</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- CSS -->
-	<link type="text/css" rel="stylesheet" href="css/bootstrap.css">
-	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
-	<link type="text/css" rel="stylesheet" href="css/bootstrap-grid.css">
-	<link type="text/css" rel="stylesheet" href="css/bootstrap-grid.min.css">
-	<link type="text/css" rel="stylesheet" href="css/bootstrap-reboot.css">
-	<link type="text/css" rel="stylesheet" href="css/bootstrap-reboot.css">
+	<link rel="icon" type="image/png" href="./img/logo.png">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 	<link type="text/css" rel="stylesheet" href="css/style.css">
 	<!-- JS -->
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
-	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
 	<!-- BARRA DE NAVEGAÇÃO -->
-	<div id="nav"></div>
+	<nav class='navbar navbar-expand-lg navbar-dark bg-dark'>
+		<div class='container'> 					 				
+			<a class='navbar-brand' href='index.html'> 					
+				<img src='img/logo-detetive-guilherme.png' class='mr-4' width='140' height='40' alt='Logo' loading='lazy'> 					 				 
+			</a> 					 				
+			<button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'> 						 					
+			<span class='navbar-toggler-icon'></span> 					 				 
+			</button> 				 					
+			<div class='collapse navbar-collapse' id='navbarSupportedContent'> 						 						
+				<ul class='navbar-nav mr-auto'> 							
+					<li class='nav-item'> 								
+						<a class='nav-link' href='index.html'>Home</a> 							
+					</li> 							 							
+					<li class='nav-item'> 								
+						<a class='nav-link' href='servicos.html'>Serviços</a> 							 							 
+					</li> 														 							
+					<li class='nav-item'> 								 								
+						<a class='nav-link' href='duvidas.html'>Dúvidas</a> 							 										
+					</li> 							 							
+					<li class='nav-item'> 								 								
+						<a class='nav-link' href='contato.html'>Contato</a> 							 							 
+					</li>					 						 						
+				</ul> 					 					 
+			</div> 				 				
+		</div> 			 			
+	</nav>
 	<!-- CORPO -->
-	<div class="container p-4">
-		<div class="row">
+	<div class="container">
+		<div class="row p-4">
 			<div class="col">
-				<h3 class="text-dark">Serviços:</h3>
-				<h5 class="text-dark">Investigações pessoais:</h5>
-				<p>
-					Cada trabalho merece seu cuidado pessoal e especial, onde os problemas conjugais são analisados e verificados com sigilo e a descrição por mim e meus agentes de inteligência, que apresentam aos nossos clientes resultados rápidos e seguros.
-				</p>
-				<ul class="lista_servicos">
-					<li>Investigações de adultério.</li>
-					<li>Flagrantes.</li>
-					<li>Acompanhamento de pessoas.</li>
-					<li>Investigações de sabotagem.</li>
-					<li>Localização de anônimos.</li>
-					<li>Encontrar cachorro desaparecido.</li>
-					<li>Gravações especiais à distância e sem limites de distância.</li>
-					<li>Investigações de crimes, furtos e roubos.</li>
-					<li>Filmagens diurnas e noturnas (fotos).</li>
-				</ul>
-				<h5 class="text-dark">Investigações industriais:</h5>
-				<p>
-					Empregados desonestos são o grande problema da maioria das empresas, daí a necessidade de se criar o setor de inteligência, o qual poderá infiltrar agentes entre os trabalhadores, apurando os que estão dilapidando o patrimônio da empresa, detectando movimentos de descontentamentos, atos de negligência, descobrindo furtos e outras irregularidades.
-				</p>
-				<ul class="lista_servicos">
-					<li>Furto contínuo.</li>
-					<li>Desvio de informações.</li>
-					<li>Gravações sigilosas.</li>
-					<li>Check-up de funcionários.</li>
-					<li>Desvio de cargas.</li>
-					<li>Falsificação de marcas de produtos.</li>
-					<li>Contra espionagem industrial.</li>
+				<h3 class="text-dark pb-2">Serviços:</h3>
+				<ul class="list-unstyled">
+					<li>
+						<h5>Conjugais:</h5>
+						<p class="text-paragrafo">
+							A suspeita de estar sendo traído(a) retira a paz de qualquer relacionamento, neste caso podemos te ajudar, utilizando medidas investigativas podemos verificar e registrar tudo o que seu parceiro ou parceira realiza diariamente chegando assim, a uma conclusão.
+						</p>
+					</li>
+					<li>
+						<h5>Empresariais:</h5>
+						<p class="text-paragrafo">
+							Muitos funcionários processam suas empresas alegando lesões, acidentes e injuria devido ao ambiente laboral e afins, nossa equipe investiga a fundo o dia a dia do funcionário e checamos se realmente   o mesmo apresenta as limitações alegadas, algo bem recorrente que também fazemos é investigar se há desvios de dinheiro e casos de corrupção, furto, estelionato, bem como ameaças e fraudes.
+						</p>
+					</li>
+					<li>
+						<h5>Ocasionais:</h5>
+						<p class="text-paragrafo">
+							Trabalhos gerais bem como encontramos seu pet sumido, buscamos informações com terceiros (exemplo: há um carro estacionado em minha calçada há 3 dias, interrogamos os vizinhos para descobrirmos o que sabem daquele carro, se viram alguém saindo dele, puxamos informações como origem, ano, e a quem pertence o carro em sistemas de segurança e do registro nacional de veículos e automotores).
+						</p>
+					</li>
 				</ul>
 				<p>
-					Utilizamos equipamentos de última geração de gravação, audio, video, escutas sem limites de distância.
-				</p>
-				<p>				
-					Clique no botão abaixo para entrar em contato diretamente:
+					Além de várias outras propostas, clique no botão abaixo para entrar em contato diretamente:
 				</p>
 				<a class="text-light btn btn-success" href="tel:11951317140">
 					<img src="img/icones/contato_white.svg" class="icone_button">
@@ -69,6 +78,51 @@
 		</div>
 	</div>
 	<!-- RODAPÉ -->
-	<div id="footer"></div>
+	<footer class='page-footer font-small text-light bg-dark pt-4'> 					
+		<div class='container pb-5'> 						
+			<div class='row'> 							
+				<div class='col-md-6'> 								
+					<strong>Sobre a empresa:</strong> 								
+					<p class='pt-2 text-paragrafo'> 									
+						Seja bem-vindo ao site oficial da Detetive Guilherme, fundada pelo detetive Guilherme Marcondes que exerce a profissão com excelência e sigilo desde 2008. Localizada em Santo André (São Paulo) realizamos serviços em todo território brasileiro com disposição a atende-lo(a) 24 horas por dia.
+					</p>					
+				</div> 							
+				<div class='col-md-2'> 								
+					<strong>Links:</strong> 								
+					<ul class='list-unstyled pt-2 link_footer'> 									
+						<li> 										
+							<a class='text-decoration-none text-light' href='index.html'>Home</a> 									
+						</li> 									
+						<li> 										
+							<a class='text-decoration-none text-light' href='servicos.html'>Serviços</a> 									
+						</li> 									
+						<li> 										
+							<a class='text-decoration-none text-light' href='duvidas.html'>Dúvidas</a> 									
+						</li> 									
+						<li> 										
+							<a class='text-decoration-none text-light' href='contato.html'>Contato</a> 									
+						</li> 								
+					</ul> 							
+				</div> 							
+				<div class='col-md-4'> 										
+					<strong>Contato:</strong> 								
+					<ul class='list-unstyled pt-2 link_footer'> 									
+						<li> 										
+							<img class='icones_footer' src='img/icones/endereco_white.svg' alt='endereco'></img> 										
+							<span class='text-decoration-none text-light'>Santo André - São Paulo</span>							
+						</li> 									
+						<li> 										
+							<img class='icones_footer' src='img/icones/telefone_white.svg' alt='telefone'></img> 										
+							<a class='text-decoration-none text-light' href='tel:11975795986'>(11) 97579-5986</a> 									
+						</li> 									
+						<li> 										
+							<img class='icones_footer' src='img/icones/email_white.svg' alt='e-mail'></img> 										
+							<a class='text-decoration-none text-light' href='mailto:detetiveguilherme2018@gmail.com?subject=Solicitar Serviço.'>detetiveguilherme2018@gmail.com</a> 									
+						</li> 								
+					</ul>		 							
+				</div>			 						
+			</div> 					
+		</div> 				
+	</footer>
 </body>
 </html>
